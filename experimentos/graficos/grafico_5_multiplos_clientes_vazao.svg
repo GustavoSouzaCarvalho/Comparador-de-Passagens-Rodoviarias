@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Experimento 4: vazão do agregador x clientes simultâneos">
+<title>Experimento 4: vazão do agregador x clientes simultâneos</title>
+<rect width="760" height="440" fill="#fcfcfb"/>
+<text x="24.0" y="34.0" font-size="18" fill="#0b0b0b" text-anchor="start" font-weight="600">Experimento 4: vazão do agregador x clientes simultâneos</text>
+<text x="24.0" y="56.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">Consultas concluídas por segundo (clientes ÷ duração da rodada)</text>
+<rect x="24" y="70" width="12" height="12" rx="2" fill="#2a78d6"/>
+<text x="42.0" y="80.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="400">Sequencial</text>
+<rect x="129.0" y="70" width="12" height="12" rx="2" fill="#eb6834"/>
+<text x="147.0" y="80.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="400">Concorrente</text>
+<line x1="84" y1="376.0" x2="630" y2="376.0" stroke="#b9b8b2" stroke-width="1"/>
+<text x="76.0" y="380.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">0</text>
+<line x1="84" y1="311.5" x2="630" y2="311.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="315.5" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">10</text>
+<line x1="84" y1="247.0" x2="630" y2="247.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="251.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">20</text>
+<line x1="84" y1="182.5" x2="630" y2="182.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="186.5" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">30</text>
+<line x1="84" y1="118.0" x2="630" y2="118.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="122.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">40</text>
+<text x="24.0" y="104.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">Vazão (consultas/s)</text>
+<text x="96.0" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">1</text>
+<text x="200.4" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">2</text>
+<text x="304.8" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">4</text>
+<text x="409.2" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">8</text>
+<text x="513.6" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">16</text>
+<text x="618.0" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">32</text>
+<text x="357.0" y="420.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">Clientes consultando ao mesmo tempo</text>
+<polyline points="96.0,374.0 200.4,372.0 304.8,368.0 409.2,360.0 513.6,344.0 618.0,312.3" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="96.0" cy="374.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 1: 0,3 cons./s</title></circle>
+<circle cx="200.4" cy="372.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 2: 0,6 cons./s</title></circle>
+<circle cx="304.8" cy="368.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 4: 1,2 cons./s</title></circle>
+<circle cx="409.2" cy="360.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 8: 2,5 cons./s</title></circle>
+<circle cx="513.6" cy="344.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 16: 5,0 cons./s</title></circle>
+<circle cx="618.0" cy="312.3" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 32: 9,9 cons./s</title></circle>
+<polyline points="96.0,368.0 200.4,360.0 304.8,344.2 409.2,313.2 513.6,253.4 618.0,143.1" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="96.0" cy="368.0" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 1: 1,2 cons./s</title></circle>
+<circle cx="200.4" cy="360.0" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 2: 2,5 cons./s</title></circle>
+<circle cx="304.8" cy="344.2" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 4: 4,9 cons./s</title></circle>
+<circle cx="409.2" cy="313.2" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 8: 9,7 cons./s</title></circle>
+<circle cx="513.6" cy="253.4" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 16: 19,0 cons./s</title></circle>
+<circle cx="618.0" cy="143.1" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 32: 36,1 cons./s</title></circle>
+<text x="628.0" y="141.1" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600">Concorrente</text>
+<text x="628.0" y="155.1" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">36,1 cons./s</text>
+<text x="628.0" y="310.3" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600">Sequencial</text>
+<text x="628.0" y="324.3" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">9,9 cons./s</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Experimento 5: tempo da consulta com serviços indisponíveis">
+<title>Experimento 5: tempo da consulta com serviços indisponíveis</title>
+<rect width="760" height="440" fill="#fcfcfb"/>
+<text x="24.0" y="34.0" font-size="18" fill="#0b0b0b" text-anchor="start" font-weight="600">Experimento 5: tempo da consulta com serviços indisponíveis</text>
+<text x="24.0" y="56.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">A: todos ativos · B: serviço 2 desligado · C: serviço 3 lento (timeout de 2 s) · D: serviços 2 e 4 desligados</text>
+<rect x="24" y="70" width="12" height="12" rx="2" fill="#2a78d6"/>
+<text x="42.0" y="80.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="400">Sequencial</text>
+<rect x="129.0" y="70" width="12" height="12" rx="2" fill="#eb6834"/>
+<text x="147.0" y="80.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="400">Concorrente</text>
+<line x1="84" y1="370.0" x2="732" y2="370.0" stroke="#b9b8b2" stroke-width="1"/>
+<text x="76.0" y="374.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">0</text>
+<line x1="84" y1="319.6" x2="732" y2="319.6" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="323.6" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">1.000</text>
+<line x1="84" y1="269.2" x2="732" y2="269.2" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="273.2" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">2.000</text>
+<line x1="84" y1="218.8" x2="732" y2="218.8" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="222.8" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">3.000</text>
+<line x1="84" y1="168.4" x2="732" y2="168.4" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="172.4" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">4.000</text>
+<line x1="84" y1="118.0" x2="732" y2="118.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="122.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">5.000</text>
+<text x="24.0" y="104.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">Tempo médio (ms)</text>
+<path d="M140.0,370.0 L140.0,212.2 Q140.0,208.2 144.0,208.2 L160.0,208.2 Q164.0,208.2 164.0,212.2 L164.0,370.0 Z" fill="#2a78d6"><title>Cenário A - Sequencial: 3.210 ms</title></path>
+<text x="152.0" y="202.2" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">3.210</text>
+<path d="M166.0,370.0 L166.0,333.5 Q166.0,329.5 170.0,329.5 L186.0,329.5 Q190.0,329.5 190.0,333.5 L190.0,370.0 Z" fill="#eb6834"><title>Cenário A - Concorrente: 803 ms</title></path>
+<text x="178.0" y="323.5" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">803</text>
+<text x="165.0" y="390.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Cenário A</text>
+<text x="165.0" y="407.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">4/4 serviços responderam</text>
+<path d="M302.0,370.0 L302.0,252.8 Q302.0,248.8 306.0,248.8 L322.0,248.8 Q326.0,248.8 326.0,252.8 L326.0,370.0 Z" fill="#2a78d6"><title>Cenário B - Sequencial: 2.404 ms</title></path>
+<text x="314.0" y="242.8" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">2.404</text>
+<path d="M328.0,370.0 L328.0,333.5 Q328.0,329.5 332.0,329.5 L348.0,329.5 Q352.0,329.5 352.0,333.5 L352.0,370.0 Z" fill="#eb6834"><title>Cenário B - Concorrente: 803 ms</title></path>
+<text x="340.0" y="323.5" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">803</text>
+<text x="327.0" y="390.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Cenário B</text>
+<text x="327.0" y="407.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">3/4 serviços responderam</text>
+<path d="M464.0,370.0 L464.0,151.9 Q464.0,147.9 468.0,147.9 L484.0,147.9 Q488.0,147.9 488.0,151.9 L488.0,370.0 Z" fill="#2a78d6"><title>Cenário C - Sequencial: 4.407 ms</title></path>
+<text x="476.0" y="141.9" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">4.407</text>
+<path d="M490.0,370.0 L490.0,273.0 Q490.0,269.0 494.0,269.0 L510.0,269.0 Q514.0,269.0 514.0,273.0 L514.0,370.0 Z" fill="#eb6834"><title>Cenário C - Concorrente: 2.003 ms</title></path>
+<text x="502.0" y="263.0" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">2.003</text>
+<text x="489.0" y="390.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Cenário C</text>
+<text x="489.0" y="407.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">3/4 serviços responderam</text>
+<path d="M626.0,370.0 L626.0,293.2 Q626.0,289.2 630.0,289.2 L646.0,289.2 Q650.0,289.2 650.0,293.2 L650.0,370.0 Z" fill="#2a78d6"><title>Cenário D - Sequencial: 1.604 ms</title></path>
+<text x="638.0" y="283.2" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">1.604</text>
+<path d="M652.0,370.0 L652.0,333.5 Q652.0,329.5 656.0,329.5 L672.0,329.5 Q676.0,329.5 676.0,333.5 L676.0,370.0 Z" fill="#eb6834"><title>Cenário D - Concorrente: 803 ms</title></path>
+<text x="664.0" y="323.5" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">803</text>
+<text x="651.0" y="390.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Cenário D</text>
+<text x="651.0" y="407.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">2/4 serviços responderam</text>
+</svg>

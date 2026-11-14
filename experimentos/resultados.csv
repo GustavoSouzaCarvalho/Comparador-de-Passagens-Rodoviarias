@@ -1,0 +1,11 @@
+modo,repeticao,tempo_ms,num_servicos
+sequencial,1,3234.0,4
+sequencial,2,3208.5,4
+sequencial,3,3207.7,4
+sequencial,4,3208.0,4
+sequencial,5,3207.8,4
+concorrente,1,804.1,4
+concorrente,2,803.5,4
+concorrente,3,803.6,4
+concorrente,4,803.8,4
+concorrente,5,803.3,4

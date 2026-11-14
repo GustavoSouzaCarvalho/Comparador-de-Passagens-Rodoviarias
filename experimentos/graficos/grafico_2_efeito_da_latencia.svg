@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Experimento 3: tempo médio da consulta x latência dos serviços">
+<title>Experimento 3: tempo médio da consulta x latência dos serviços</title>
+<rect width="760" height="440" fill="#fcfcfb"/>
+<text x="24.0" y="34.0" font-size="18" fill="#0b0b0b" text-anchor="start" font-weight="600">Experimento 3: tempo médio da consulta x latência dos serviços</text>
+<text x="24.0" y="56.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">Sequencial cresce com a SOMA das latências (≈ 4 × L); concorrente, com a MAIOR delas (≈ L)</text>
+<rect x="24" y="70" width="12" height="12" rx="2" fill="#2a78d6"/>
+<text x="42.0" y="80.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="400">Sequencial</text>
+<rect x="129.0" y="70" width="12" height="12" rx="2" fill="#eb6834"/>
+<text x="147.0" y="80.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="400">Concorrente</text>
+<line x1="84" y1="376.0" x2="630" y2="376.0" stroke="#b9b8b2" stroke-width="1"/>
+<text x="76.0" y="380.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">0</text>
+<line x1="84" y1="311.5" x2="630" y2="311.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="315.5" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">2.000</text>
+<line x1="84" y1="247.0" x2="630" y2="247.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="251.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">4.000</text>
+<line x1="84" y1="182.5" x2="630" y2="182.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="186.5" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">6.000</text>
+<line x1="84" y1="118.0" x2="630" y2="118.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="122.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">8.000</text>
+<text x="24.0" y="104.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">Tempo médio (ms)</text>
+<text x="96.0" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">0 s</text>
+<text x="183.0" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">0,25 s</text>
+<text x="270.0" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">0,5 s</text>
+<text x="357.0" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">0,75 s</text>
+<text x="444.0" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">1 s</text>
+<text x="618.0" y="396.0" font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="400">1,5 s</text>
+<text x="357.0" y="420.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">Latência simulada em cada serviço</text>
+<polyline points="96.0,375.9 183.0,343.6 270.0,311.3 357.0,279.0 444.0,246.8 618.0,182.2" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="96.0" cy="375.9" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 0 s: 4 ms</title></circle>
+<circle cx="183.0" cy="343.6" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 0,25 s: 1.006 ms</title></circle>
+<circle cx="270.0" cy="311.3" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 0,5 s: 2.006 ms</title></circle>
+<circle cx="357.0" cy="279.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 0,75 s: 3.007 ms</title></circle>
+<circle cx="444.0" cy="246.8" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 1 s: 4.007 ms</title></circle>
+<circle cx="618.0" cy="182.2" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Sequencial - 1,5 s: 6.008 ms</title></circle>
+<polyline points="96.0,375.9 183.0,367.8 270.0,359.8 357.0,351.7 444.0,343.6 618.0,327.5" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="96.0" cy="375.9" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 0 s: 3 ms</title></circle>
+<circle cx="183.0" cy="367.8" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 0,25 s: 253 ms</title></circle>
+<circle cx="270.0" cy="359.8" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 0,5 s: 503 ms</title></circle>
+<circle cx="357.0" cy="351.7" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 0,75 s: 753 ms</title></circle>
+<circle cx="444.0" cy="343.6" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 1 s: 1.004 ms</title></circle>
+<circle cx="618.0" cy="327.5" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Concorrente - 1,5 s: 1.504 ms</title></circle>
+<text x="628.0" y="180.2" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600">Sequencial</text>
+<text x="628.0" y="194.2" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">6.008 ms</text>
+<text x="628.0" y="325.5" font-size="11.5" fill="#0b0b0b" text-anchor="start" font-weight="600">Concorrente</text>
+<text x="628.0" y="339.5" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">1.504 ms</text>
+</svg>

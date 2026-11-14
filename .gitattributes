@@ -1,0 +1,10 @@
+# Normaliza finais de linha no repositório
+* text=auto
+
+# Scripts do Windows precisam de CRLF; scripts do Linux precisam de LF
+*.bat text eol=crlf
+*.sh  text eol=lf
+*.py  text eol=lf
+
+*.svg text
+*.csv text

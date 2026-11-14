@@ -1,0 +1,41 @@
+cenario,descricao,modo,repeticao,tempo_ms,num_servicos,total_viagens,avisos
+A,Todos os serviços ativos,sequencial,1,3207.9,4,11,
+A,Todos os serviços ativos,sequencial,2,3208.7,4,11,
+A,Todos os serviços ativos,sequencial,3,3209.6,4,11,
+A,Todos os serviços ativos,sequencial,4,3215.9,4,11,
+A,Todos os serviços ativos,sequencial,5,3207.9,4,11,
+A,Todos os serviços ativos,concorrente,1,803.6,4,11,
+A,Todos os serviços ativos,concorrente,2,803.1,4,11,
+A,Todos os serviços ativos,concorrente,3,802.6,4,11,
+A,Todos os serviços ativos,concorrente,4,802.6,4,11,
+A,Todos os serviços ativos,concorrente,5,802.9,4,11,
+B,Serviço 2 desligado,sequencial,1,2403.9,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,sequencial,2,2405.0,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,sequencial,3,2404.2,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,sequencial,4,2404.4,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,sequencial,5,2404.9,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,concorrente,1,802.9,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,concorrente,2,802.7,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,concorrente,3,803.2,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,concorrente,4,802.9,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+B,Serviço 2 desligado,concorrente,5,802.7,3,8,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado)
+C,Serviço 3 lento (3 s > timeout),sequencial,1,4407.1,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),sequencial,2,4406.2,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),sequencial,3,4406.4,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),sequencial,4,4407.4,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),sequencial,5,4406.5,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),concorrente,1,2003.4,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),concorrente,2,2003.6,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),concorrente,3,2002.7,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),concorrente,4,2002.9,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+C,Serviço 3 lento (3 s > timeout),concorrente,5,2002.4,3,9,Serviço 3 (Expresso Pará) indisponível: tempo limite de 2 s excedido
+D,Serviços 2 e 4 desligados,sequencial,1,1603.4,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,sequencial,2,1603.6,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,sequencial,3,1603.6,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,sequencial,4,1603.6,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,sequencial,5,1603.7,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,concorrente,1,802.7,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,concorrente,2,802.2,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,concorrente,3,802.6,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,concorrente,4,803.0,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)
+D,Serviços 2 e 4 desligados,concorrente,5,802.8,2,5,Serviço 2 (TransBrasil) indisponível: conexão recusada (serviço desligado) | Serviço 4 (Rodoviária Sul) indisponível: conexão recusada (serviço desligado)

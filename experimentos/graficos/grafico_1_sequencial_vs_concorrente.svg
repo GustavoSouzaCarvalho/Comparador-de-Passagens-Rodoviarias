@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Experimentos 1 e 2: tempo total da consulta por modo">
+<title>Experimentos 1 e 2: tempo total da consulta por modo</title>
+<rect width="760" height="440" fill="#fcfcfb"/>
+<text x="24.0" y="34.0" font-size="18" fill="#0b0b0b" text-anchor="start" font-weight="600">Experimentos 1 e 2: tempo total da consulta por modo</text>
+<text x="24.0" y="56.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">Marabá → Belém, 4 serviços · média sequencial 3.213 ms x concorrente 804 ms · speedup 4,00x</text>
+<rect x="24" y="70" width="12" height="12" rx="2" fill="#2a78d6"/>
+<text x="42.0" y="80.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="400">Sequencial</text>
+<rect x="129.0" y="70" width="12" height="12" rx="2" fill="#eb6834"/>
+<text x="147.0" y="80.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="400">Concorrente</text>
+<line x1="84" y1="388.0" x2="732" y2="388.0" stroke="#b9b8b2" stroke-width="1"/>
+<text x="76.0" y="392.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">0</text>
+<line x1="84" y1="320.5" x2="732" y2="320.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="324.5" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">1.000</text>
+<line x1="84" y1="253.0" x2="732" y2="253.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="257.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">2.000</text>
+<line x1="84" y1="185.5" x2="732" y2="185.5" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="189.5" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">3.000</text>
+<line x1="84" y1="118.0" x2="732" y2="118.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="76.0" y="122.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">4.000</text>
+<text x="24.0" y="104.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">Tempo total (ms)</text>
+<path d="M113.0,388.0 L113.0,173.7 Q113.0,169.7 117.0,169.7 L133.0,169.7 Q137.0,169.7 137.0,173.7 L137.0,388.0 Z" fill="#2a78d6"><title>Rep. 1 - Sequencial: 3.234 ms</title></path>
+<path d="M139.0,388.0 L139.0,337.7 Q139.0,333.7 143.0,333.7 L159.0,333.7 Q163.0,333.7 163.0,337.7 L163.0,388.0 Z" fill="#eb6834"><title>Rep. 1 - Concorrente: 804 ms</title></path>
+<text x="138.0" y="408.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Rep. 1</text>
+<path d="M221.0,388.0 L221.0,175.4 Q221.0,171.4 225.0,171.4 L241.0,171.4 Q245.0,171.4 245.0,175.4 L245.0,388.0 Z" fill="#2a78d6"><title>Rep. 2 - Sequencial: 3.208 ms</title></path>
+<path d="M247.0,388.0 L247.0,337.8 Q247.0,333.8 251.0,333.8 L267.0,333.8 Q271.0,333.8 271.0,337.8 L271.0,388.0 Z" fill="#eb6834"><title>Rep. 2 - Concorrente: 804 ms</title></path>
+<text x="246.0" y="408.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Rep. 2</text>
+<path d="M329.0,388.0 L329.0,175.5 Q329.0,171.5 333.0,171.5 L349.0,171.5 Q353.0,171.5 353.0,175.5 L353.0,388.0 Z" fill="#2a78d6"><title>Rep. 3 - Sequencial: 3.208 ms</title></path>
+<path d="M355.0,388.0 L355.0,337.8 Q355.0,333.8 359.0,333.8 L375.0,333.8 Q379.0,333.8 379.0,337.8 L379.0,388.0 Z" fill="#eb6834"><title>Rep. 3 - Concorrente: 804 ms</title></path>
+<text x="354.0" y="408.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Rep. 3</text>
+<path d="M437.0,388.0 L437.0,175.5 Q437.0,171.5 441.0,171.5 L457.0,171.5 Q461.0,171.5 461.0,175.5 L461.0,388.0 Z" fill="#2a78d6"><title>Rep. 4 - Sequencial: 3.208 ms</title></path>
+<path d="M463.0,388.0 L463.0,337.7 Q463.0,333.7 467.0,333.7 L483.0,333.7 Q487.0,333.7 487.0,337.7 L487.0,388.0 Z" fill="#eb6834"><title>Rep. 4 - Concorrente: 804 ms</title></path>
+<text x="462.0" y="408.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Rep. 4</text>
+<path d="M545.0,388.0 L545.0,175.5 Q545.0,171.5 549.0,171.5 L565.0,171.5 Q569.0,171.5 569.0,175.5 L569.0,388.0 Z" fill="#2a78d6"><title>Rep. 5 - Sequencial: 3.208 ms</title></path>
+<path d="M571.0,388.0 L571.0,337.8 Q571.0,333.8 575.0,333.8 L591.0,333.8 Q595.0,333.8 595.0,337.8 L595.0,388.0 Z" fill="#eb6834"><title>Rep. 5 - Concorrente: 803 ms</title></path>
+<text x="570.0" y="408.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Rep. 5</text>
+<path d="M653.0,388.0 L653.0,175.1 Q653.0,171.1 657.0,171.1 L673.0,171.1 Q677.0,171.1 677.0,175.1 L677.0,388.0 Z" fill="#2a78d6"><title>Média - Sequencial: 3.213 ms</title></path>
+<text x="665.0" y="165.1" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">3.213</text>
+<path d="M679.0,388.0 L679.0,337.8 Q679.0,333.8 683.0,333.8 L699.0,333.8 Q703.0,333.8 703.0,337.8 L703.0,388.0 Z" fill="#eb6834"><title>Média - Concorrente: 804 ms</title></path>
+<text x="691.0" y="327.8" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="400">804</text>
+<text x="678.0" y="408.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="400">Média</text>
+</svg>
